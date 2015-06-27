@@ -1,0 +1,8 @@
+[Unit]
+Description=LED-Stripe-starter
+
+[Service]
+ExecStart= /home/matthias/Programmierung/Python/LED_Control/control-server.py
+
+[Install]
+WantedBy=multi-user.target
